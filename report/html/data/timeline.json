@@ -1,0 +1,339 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "xnxs-FM",
+    "children" : [ {
+      "name" : "13240-MainThread",
+      "children" : [ {
+        "name" : "test_user[inBody0-expData0]",
+        "uid" : "2c63abad1e35db6",
+        "parentUid" : "289ef502887f05de5bd683b5601bef92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610681146452,
+          "stop" : 1610681146513,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 0, 'desc': '查询成功', 'userId': '68007388434796544', 'username': 'VR68007388', 'status': 1, 'password': 'A8EC140DF75CA75BF6AFA9E590AA4BF4', 'phone': '15889495302', 'headIcon': 'https://picture.i.vrshow.com/defaultAvatar/16042786621562.3474146630696024/公仔1.jpg', 'sex': 2, 'address': None, 'birthday': '2020-12-22', 'isVip': 0, 'idAuth': 1, 'sign': None, 'userAddress': {'userId': '68007388434796544', 'provinceCode': '518000', 'provinceName': '广东省', 'cityCode': '518000', 'cityName': '深圳市', 'areaCode': '440300', 'areaName': '龙岗区', 'streetCode': '518064', 'streetName': '布吉街道', 'address': '粤海街道高新南七道', 'createTime': '2020-12-25T09:22:02.000+00:00', 'updateTime': '2021-01-11T08:14:11.000+00:00'}, 'userSocialAccount': {'accountId': None, 'accountType': None, 'userId': None, 'openid': None, 'username': None, 'userHead': None, 'userSex': None, 'country': None, 'province': None, 'city': None, 'bindTime': None}}", "{'phone': 15889495302}" ]
+      }, {
+        "name" : "test_user[inBody1-expData1]",
+        "uid" : "574664d041ce855a",
+        "parentUid" : "289ef502887f05de5bd683b5601bef92",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610681146519,
+          "stop" : 1610681146555,
+          "duration" : 36
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 42001, 'desc': '用户存在', 'userId': None, 'username': None, 'status': None, 'password': None, 'phone': None, 'headIcon': None, 'sex': None, 'address': None, 'birthday': None, 'isVip': None, 'idAuth': None, 'sign': None, 'userAddress': None, 'userSocialAccount': None}", "{'phone': 15889495111}" ]
+      } ],
+      "uid" : "289ef502887f05de5bd683b5601bef92"
+    }, {
+      "name" : "15192-MainThread",
+      "children" : [ {
+        "name" : "test_user[inBody1-expData1]",
+        "uid" : "c03a534e14bffd7",
+        "parentUid" : "35ea8e8f4545242eec0369db6e665061",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610690278869,
+          "stop" : 1610690278902,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 42001, 'desc': '用户存在', 'userId': None, 'username': None, 'status': None, 'password': None, 'phone': None, 'headIcon': None, 'sex': None, 'address': None, 'birthday': None, 'isVip': None, 'idAuth': None, 'sign': None, 'userAddress': None, 'userSocialAccount': None}", "{'phone': 15889495111}" ]
+      }, {
+        "name" : "test_user[inBody0-expData0]",
+        "uid" : "9b056375b8ef2d53",
+        "parentUid" : "35ea8e8f4545242eec0369db6e665061",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610690278779,
+          "stop" : 1610690278846,
+          "duration" : 67
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 0, 'desc': '查询成功', 'userId': '68007388434796544', 'username': 'VR68007388', 'status': 1, 'password': 'A8EC140DF75CA75BF6AFA9E590AA4BF4', 'phone': '15889495302', 'headIcon': 'https://picture.i.vrshow.com/defaultAvatar/16042786621562.3474146630696024/公仔1.jpg', 'sex': 2, 'address': None, 'birthday': '2020-12-22', 'isVip': 0, 'idAuth': 1, 'sign': None, 'userAddress': {'userId': '68007388434796544', 'provinceCode': '518000', 'provinceName': '广东省', 'cityCode': '518000', 'cityName': '深圳市', 'areaCode': '440300', 'areaName': '龙岗区', 'streetCode': '518064', 'streetName': '布吉街道', 'address': '粤海街道高新南七道', 'createTime': '2020-12-25T09:22:02.000+00:00', 'updateTime': '2021-01-11T08:14:11.000+00:00'}, 'userSocialAccount': {'accountId': None, 'accountType': None, 'userId': None, 'openid': None, 'username': None, 'userHead': None, 'userSex': None, 'country': None, 'province': None, 'city': None, 'bindTime': None}}", "{'phone': 15889495302}" ]
+      } ],
+      "uid" : "35ea8e8f4545242eec0369db6e665061"
+    }, {
+      "name" : "15644-MainThread",
+      "children" : [ {
+        "name" : "test_user[inBody1-expData1]",
+        "uid" : "632cb4f679c2de7f",
+        "parentUid" : "e0be5a50337378536cfe2fac1f223614",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610616916449,
+          "stop" : 1610616916485,
+          "duration" : 36
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 42001, 'desc': '用户存在', 'userId': None, 'username': None, 'status': None, 'password': None, 'phone': None, 'headIcon': None, 'sex': None, 'address': None, 'birthday': None, 'isVip': None, 'idAuth': None, 'sign': None, 'userAddress': None, 'userSocialAccount': None}", "{'phone': 15889495111}" ]
+      }, {
+        "name" : "test_user[inBody0-expData0]",
+        "uid" : "651b27dc07213f6d",
+        "parentUid" : "e0be5a50337378536cfe2fac1f223614",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610616916380,
+          "stop" : 1610616916443,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 0, 'desc': '查询成功', 'userId': '68007388434796544', 'username': 'VR68007388', 'status': 1, 'password': 'A8EC140DF75CA75BF6AFA9E590AA4BF4', 'phone': '15889495302', 'headIcon': 'https://picture.i.vrshow.com/defaultAvatar/16042786621562.3474146630696024/公仔1.jpg', 'sex': 2, 'address': None, 'birthday': '2020-12-22', 'isVip': 0, 'idAuth': 1, 'sign': None, 'userAddress': {'userId': '68007388434796544', 'provinceCode': '518000', 'provinceName': '广东省', 'cityCode': '518000', 'cityName': '深圳市', 'areaCode': '440300', 'areaName': '龙岗区', 'streetCode': '518064', 'streetName': '布吉街道', 'address': '粤海街道高新南七道', 'createTime': '2020-12-25T09:22:02.000+00:00', 'updateTime': '2021-01-11T08:14:11.000+00:00'}, 'userSocialAccount': {'accountId': None, 'accountType': None, 'userId': None, 'openid': None, 'username': None, 'userHead': None, 'userSex': None, 'country': None, 'province': None, 'city': None, 'bindTime': None}}", "{'phone': 15889495302}" ]
+      } ],
+      "uid" : "e0be5a50337378536cfe2fac1f223614"
+    }, {
+      "name" : "14816-MainThread",
+      "children" : [ {
+        "name" : "test_user[inBody1-expData1]",
+        "uid" : "35f57e59435e1aa8",
+        "parentUid" : "77932ef23f7c7f0d13a3b40857e4ad3b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610615737697,
+          "stop" : 1610615737738,
+          "duration" : 41
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 42001, 'desc': '用户存在', 'userId': None, 'username': None, 'status': None, 'password': None, 'phone': None, 'headIcon': None, 'sex': None, 'address': None, 'birthday': None, 'isVip': None, 'idAuth': None, 'sign': None, 'userAddress': None, 'userSocialAccount': None}", "{'phone': 15889495111}" ]
+      }, {
+        "name" : "test_user[inBody0-expData0]",
+        "uid" : "4fa3e1ea4bdfec4",
+        "parentUid" : "77932ef23f7c7f0d13a3b40857e4ad3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610615737602,
+          "stop" : 1610615737676,
+          "duration" : 74
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 0, 'desc': '查询成功', 'userId': '68007388434796544', 'username': 'VR68007388', 'status': 1, 'password': 'A8EC140DF75CA75BF6AFA9E590AA4BF4', 'phone': '15889495302', 'headIcon': 'https://picture.i.vrshow.com/defaultAvatar/16042786621562.3474146630696024/公仔1.jpg', 'sex': 2, 'address': None, 'birthday': '2020-12-22', 'isVip': 0, 'idAuth': 1, 'sign': None, 'userAddress': {'userId': '68007388434796544', 'provinceCode': '518000', 'provinceName': '广东省', 'cityCode': '518000', 'cityName': '深圳市', 'areaCode': '440300', 'areaName': '龙岗区', 'streetCode': '518064', 'streetName': '布吉街道', 'address': '粤海街道高新南七道', 'createTime': '2020-12-25T09:22:02.000+00:00', 'updateTime': '2021-01-11T08:14:11.000+00:00'}, 'userSocialAccount': {'accountId': None, 'accountType': None, 'userId': None, 'openid': None, 'username': None, 'userHead': None, 'userSex': None, 'country': None, 'province': None, 'city': None, 'bindTime': None}}", "{'phone': 15889495302}" ]
+      } ],
+      "uid" : "77932ef23f7c7f0d13a3b40857e4ad3b"
+    }, {
+      "name" : "13624-MainThread",
+      "children" : [ {
+        "name" : "test_user[inBody0-expData0]",
+        "uid" : "18779bcb156e7369",
+        "parentUid" : "a6fc76d72383c637513cfbb5b86ce9ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610681386439,
+          "stop" : 1610681386506,
+          "duration" : 67
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 0, 'desc': '查询成功', 'userId': '68007388434796544', 'username': 'VR68007388', 'status': 1, 'password': 'A8EC140DF75CA75BF6AFA9E590AA4BF4', 'phone': '15889495302', 'headIcon': 'https://picture.i.vrshow.com/defaultAvatar/16042786621562.3474146630696024/公仔1.jpg', 'sex': 2, 'address': None, 'birthday': '2020-12-22', 'isVip': 0, 'idAuth': 1, 'sign': None, 'userAddress': {'userId': '68007388434796544', 'provinceCode': '518000', 'provinceName': '广东省', 'cityCode': '518000', 'cityName': '深圳市', 'areaCode': '440300', 'areaName': '龙岗区', 'streetCode': '518064', 'streetName': '布吉街道', 'address': '粤海街道高新南七道', 'createTime': '2020-12-25T09:22:02.000+00:00', 'updateTime': '2021-01-11T08:14:11.000+00:00'}, 'userSocialAccount': {'accountId': None, 'accountType': None, 'userId': None, 'openid': None, 'username': None, 'userHead': None, 'userSex': None, 'country': None, 'province': None, 'city': None, 'bindTime': None}}", "{'phone': 15889495302}" ]
+      }, {
+        "name" : "test_user[inBody1-expData1]",
+        "uid" : "8ca15199f3031452",
+        "parentUid" : "a6fc76d72383c637513cfbb5b86ce9ea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610681386512,
+          "stop" : 1610681386547,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 42001, 'desc': '用户存在', 'userId': None, 'username': None, 'status': None, 'password': None, 'phone': None, 'headIcon': None, 'sex': None, 'address': None, 'birthday': None, 'isVip': None, 'idAuth': None, 'sign': None, 'userAddress': None, 'userSocialAccount': None}", "{'phone': 15889495111}" ]
+      } ],
+      "uid" : "a6fc76d72383c637513cfbb5b86ce9ea"
+    }, {
+      "name" : "14284-MainThread",
+      "children" : [ {
+        "name" : "test_user[inBody0-expData0]",
+        "uid" : "4525c05cb9b9abcf",
+        "parentUid" : "9fc08e3678692b5446089d6e164f39a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610615405597,
+          "stop" : 1610615405669,
+          "duration" : 72
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 0, 'desc': '查询成功', 'userId': '68007388434796544', 'username': 'VR68007388', 'status': 1, 'password': 'A8EC140DF75CA75BF6AFA9E590AA4BF4', 'phone': '15889495302', 'headIcon': 'https://picture.i.vrshow.com/defaultAvatar/16042786621562.3474146630696024/公仔1.jpg', 'sex': 2, 'address': None, 'birthday': '2020-12-22', 'isVip': 0, 'idAuth': 1, 'sign': None, 'userAddress': {'userId': '68007388434796544', 'provinceCode': '518000', 'provinceName': '广东省', 'cityCode': '518000', 'cityName': '深圳市', 'areaCode': '440300', 'areaName': '龙岗区', 'streetCode': '518064', 'streetName': '布吉街道', 'address': '粤海街道高新南七道', 'createTime': '2020-12-25T09:22:02.000+00:00', 'updateTime': '2021-01-11T08:14:11.000+00:00'}, 'userSocialAccount': {'accountId': None, 'accountType': None, 'userId': None, 'openid': None, 'username': None, 'userHead': None, 'userSex': None, 'country': None, 'province': None, 'city': None, 'bindTime': None}}", "{'phone': 15889495302}" ]
+      }, {
+        "name" : "test_user[inBody1-expData1]",
+        "uid" : "186dbfb701827b17",
+        "parentUid" : "9fc08e3678692b5446089d6e164f39a9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610615405676,
+          "stop" : 1610615405709,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 42001, 'desc': '用户存在', 'userId': None, 'username': None, 'status': None, 'password': None, 'phone': None, 'headIcon': None, 'sex': None, 'address': None, 'birthday': None, 'isVip': None, 'idAuth': None, 'sign': None, 'userAddress': None, 'userSocialAccount': None}", "{'phone': 15889495111}" ]
+      } ],
+      "uid" : "9fc08e3678692b5446089d6e164f39a9"
+    }, {
+      "name" : "13612-MainThread",
+      "children" : [ {
+        "name" : "test_user[inBody1-expData1]",
+        "uid" : "7040c19f2b822042",
+        "parentUid" : "664720b78d26b8937516eb423f60083a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610615329752,
+          "stop" : 1610615329823,
+          "duration" : 71
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 42001, 'desc': '用户存在', 'userId': None, 'username': None, 'status': None, 'password': None, 'phone': None, 'headIcon': None, 'sex': None, 'address': None, 'birthday': None, 'isVip': None, 'idAuth': None, 'sign': None, 'userAddress': None, 'userSocialAccount': None}", "{'phone': 15889495111}" ]
+      }, {
+        "name" : "test_user[inBody0-expData0]",
+        "uid" : "587f19a29c6e3a23",
+        "parentUid" : "664720b78d26b8937516eb423f60083a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610615329674,
+          "stop" : 1610615329746,
+          "duration" : 72
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 0, 'desc': '查询成功', 'userId': '68007388434796544', 'username': 'VR68007388', 'status': 1, 'password': 'A8EC140DF75CA75BF6AFA9E590AA4BF4', 'phone': '15889495302', 'headIcon': 'https://picture.i.vrshow.com/defaultAvatar/16042786621562.3474146630696024/公仔1.jpg', 'sex': 2, 'address': None, 'birthday': '2020-12-22', 'isVip': 0, 'idAuth': 1, 'sign': None, 'userAddress': {'userId': '68007388434796544', 'provinceCode': '518000', 'provinceName': '广东省', 'cityCode': '518000', 'cityName': '深圳市', 'areaCode': '440300', 'areaName': '龙岗区', 'streetCode': '518064', 'streetName': '布吉街道', 'address': '粤海街道高新南七道', 'createTime': '2020-12-25T09:22:02.000+00:00', 'updateTime': '2021-01-11T08:14:11.000+00:00'}, 'userSocialAccount': {'accountId': None, 'accountType': None, 'userId': None, 'openid': None, 'username': None, 'userHead': None, 'userSex': None, 'country': None, 'province': None, 'city': None, 'bindTime': None}}", "{'phone': 15889495302}" ]
+      } ],
+      "uid" : "664720b78d26b8937516eb423f60083a"
+    }, {
+      "name" : "13980-MainThread",
+      "children" : [ {
+        "name" : "test_user[inBody1-expData1]",
+        "uid" : "9764d1f7d6fed46b",
+        "parentUid" : "af892e07cac8ef71a7402dbb73f35c90",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610615516249,
+          "stop" : 1610615516284,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 42001, 'desc': '用户存在', 'userId': None, 'username': None, 'status': None, 'password': None, 'phone': None, 'headIcon': None, 'sex': None, 'address': None, 'birthday': None, 'isVip': None, 'idAuth': None, 'sign': None, 'userAddress': None, 'userSocialAccount': None}", "{'phone': 15889495111}" ]
+      }, {
+        "name" : "test_user[inBody0-expData0]",
+        "uid" : "954c2e260e942189",
+        "parentUid" : "af892e07cac8ef71a7402dbb73f35c90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610615516170,
+          "stop" : 1610615516243,
+          "duration" : 73
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 0, 'desc': '查询成功', 'userId': '68007388434796544', 'username': 'VR68007388', 'status': 1, 'password': 'A8EC140DF75CA75BF6AFA9E590AA4BF4', 'phone': '15889495302', 'headIcon': 'https://picture.i.vrshow.com/defaultAvatar/16042786621562.3474146630696024/公仔1.jpg', 'sex': 2, 'address': None, 'birthday': '2020-12-22', 'isVip': 0, 'idAuth': 1, 'sign': None, 'userAddress': {'userId': '68007388434796544', 'provinceCode': '518000', 'provinceName': '广东省', 'cityCode': '518000', 'cityName': '深圳市', 'areaCode': '440300', 'areaName': '龙岗区', 'streetCode': '518064', 'streetName': '布吉街道', 'address': '粤海街道高新南七道', 'createTime': '2020-12-25T09:22:02.000+00:00', 'updateTime': '2021-01-11T08:14:11.000+00:00'}, 'userSocialAccount': {'accountId': None, 'accountType': None, 'userId': None, 'openid': None, 'username': None, 'userHead': None, 'userSex': None, 'country': None, 'province': None, 'city': None, 'bindTime': None}}", "{'phone': 15889495302}" ]
+      } ],
+      "uid" : "af892e07cac8ef71a7402dbb73f35c90"
+    }, {
+      "name" : "2660-MainThread",
+      "children" : [ {
+        "name" : "test_user[inBody0-expData0]",
+        "uid" : "f1a562798ac47c64",
+        "parentUid" : "556017b1239b91fc7071d82ac7b415f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610616893812,
+          "stop" : 1610616893875,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 0, 'desc': '查询成功', 'userId': '68007388434796544', 'username': 'VR68007388', 'status': 1, 'password': 'A8EC140DF75CA75BF6AFA9E590AA4BF4', 'phone': '15889495302', 'headIcon': 'https://picture.i.vrshow.com/defaultAvatar/16042786621562.3474146630696024/公仔1.jpg', 'sex': 2, 'address': None, 'birthday': '2020-12-22', 'isVip': 0, 'idAuth': 1, 'sign': None, 'userAddress': {'userId': '68007388434796544', 'provinceCode': '518000', 'provinceName': '广东省', 'cityCode': '518000', 'cityName': '深圳市', 'areaCode': '440300', 'areaName': '龙岗区', 'streetCode': '518064', 'streetName': '布吉街道', 'address': '粤海街道高新南七道', 'createTime': '2020-12-25T09:22:02.000+00:00', 'updateTime': '2021-01-11T08:14:11.000+00:00'}, 'userSocialAccount': {'accountId': None, 'accountType': None, 'userId': None, 'openid': None, 'username': None, 'userHead': None, 'userSex': None, 'country': None, 'province': None, 'city': None, 'bindTime': None}}", "{'phone': 15889495302}" ]
+      }, {
+        "name" : "test_user[inBody1-expData1]",
+        "uid" : "99ef438101c3e3ef",
+        "parentUid" : "556017b1239b91fc7071d82ac7b415f9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610616893900,
+          "stop" : 1610616893936,
+          "duration" : 36
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 42001, 'desc': '用户存在', 'userId': None, 'username': None, 'status': None, 'password': None, 'phone': None, 'headIcon': None, 'sex': None, 'address': None, 'birthday': None, 'isVip': None, 'idAuth': None, 'sign': None, 'userAddress': None, 'userSocialAccount': None}", "{'phone': 15889495111}" ]
+      } ],
+      "uid" : "556017b1239b91fc7071d82ac7b415f9"
+    }, {
+      "name" : "9488-MainThread",
+      "children" : [ {
+        "name" : "test_user[inBody0-expData0]",
+        "uid" : "b42517cd9a386943",
+        "parentUid" : "e353ea4a4e1766cf172d8e0cafbbd73d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610614682495,
+          "stop" : 1610614682562,
+          "duration" : 67
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 0, 'desc': '查询成功', 'userId': '68007388434796544', 'username': 'VR68007388', 'status': 1, 'password': 'A8EC140DF75CA75BF6AFA9E590AA4BF4', 'phone': '15889495302', 'headIcon': 'https://picture.i.vrshow.com/defaultAvatar/16042786621562.3474146630696024/公仔1.jpg', 'sex': 2, 'address': None, 'birthday': '2020-12-22', 'isVip': 0, 'idAuth': 1, 'sign': None, 'userAddress': {'userId': '68007388434796544', 'provinceCode': '518000', 'provinceName': '广东省', 'cityCode': '518000', 'cityName': '深圳市', 'areaCode': '440300', 'areaName': '龙岗区', 'streetCode': '518064', 'streetName': '布吉街道', 'address': '粤海街道高新南七道', 'createTime': '2020-12-25T09:22:02.000+00:00', 'updateTime': '2021-01-11T08:14:11.000+00:00'}, 'userSocialAccount': {'accountId': None, 'accountType': None, 'userId': None, 'openid': None, 'username': None, 'userHead': None, 'userSex': None, 'country': None, 'province': None, 'city': None, 'bindTime': None}}", "{'phone': 15889495302}" ]
+      }, {
+        "name" : "test_user[inBody1-expData1]",
+        "uid" : "b4ead9062ff8b7d6",
+        "parentUid" : "e353ea4a4e1766cf172d8e0cafbbd73d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610614682567,
+          "stop" : 1610614682601,
+          "duration" : 34
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 42001, 'desc': '用户存在', 'userId': None, 'username': None, 'status': None, 'password': None, 'phone': None, 'headIcon': None, 'sex': None, 'address': None, 'birthday': None, 'isVip': None, 'idAuth': None, 'sign': None, 'userAddress': None, 'userSocialAccount': None}", "{'phone': 15889495111}" ]
+      } ],
+      "uid" : "e353ea4a4e1766cf172d8e0cafbbd73d"
+    }, {
+      "name" : "14480-MainThread",
+      "children" : [ {
+        "name" : "test_user[inBody0-expData0]",
+        "uid" : "b56eab2f92427ca3",
+        "parentUid" : "f46d0e30df1e10336e6f7ededb447229",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610682680191,
+          "stop" : 1610682680252,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 0, 'desc': '查询成功', 'userId': '68007388434796544', 'username': 'VR68007388', 'status': 1, 'password': 'A8EC140DF75CA75BF6AFA9E590AA4BF4', 'phone': '15889495302', 'headIcon': 'https://picture.i.vrshow.com/defaultAvatar/16042786621562.3474146630696024/公仔1.jpg', 'sex': 2, 'address': None, 'birthday': '2020-12-22', 'isVip': 0, 'idAuth': 1, 'sign': None, 'userAddress': {'userId': '68007388434796544', 'provinceCode': '518000', 'provinceName': '广东省', 'cityCode': '518000', 'cityName': '深圳市', 'areaCode': '440300', 'areaName': '龙岗区', 'streetCode': '518064', 'streetName': '布吉街道', 'address': '粤海街道高新南七道', 'createTime': '2020-12-25T09:22:02.000+00:00', 'updateTime': '2021-01-11T08:14:11.000+00:00'}, 'userSocialAccount': {'accountId': None, 'accountType': None, 'userId': None, 'openid': None, 'username': None, 'userHead': None, 'userSex': None, 'country': None, 'province': None, 'city': None, 'bindTime': None}}", "{'phone': 15889495302}" ]
+      }, {
+        "name" : "test_user[inBody1-expData1]",
+        "uid" : "d36d58da2b07dd6c",
+        "parentUid" : "f46d0e30df1e10336e6f7ededb447229",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610682680258,
+          "stop" : 1610682680293,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 42001, 'desc': '用户存在', 'userId': None, 'username': None, 'status': None, 'password': None, 'phone': None, 'headIcon': None, 'sex': None, 'address': None, 'birthday': None, 'isVip': None, 'idAuth': None, 'sign': None, 'userAddress': None, 'userSocialAccount': None}", "{'phone': 15889495111}" ]
+      } ],
+      "uid" : "f46d0e30df1e10336e6f7ededb447229"
+    } ],
+    "uid" : "2a14db144c0a90c629d26ed5cc23816f"
+  } ]
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '用户不存在' == '用户存在'\n  - 用户存在\n  + 用户不存在\n  ?   +",
+      "children" : [ {
+        "name" : "test_user[inBody1-expData1]",
+        "uid" : "c03a534e14bffd7",
+        "parentUid" : "cde1d8a342c27079ab7e12e280f0e10c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610690278869,
+          "stop" : 1610690278902,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'code': 42001, 'desc': '用户存在', 'userId': None, 'username': None, 'status': None, 'password': None, 'phone': None, 'headIcon': None, 'sex': None, 'address': None, 'birthday': None, 'isVip': None, 'idAuth': None, 'sign': None, 'userAddress': None, 'userSocialAccount': None}", "{'phone': 15889495111}" ]
+      } ],
+      "uid" : "cde1d8a342c27079ab7e12e280f0e10c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

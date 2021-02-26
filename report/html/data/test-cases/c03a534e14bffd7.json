@@ -1,0 +1,161 @@
+{
+  "uid" : "c03a534e14bffd7",
+  "name" : "test_user[inBody1-expData1]",
+  "fullName" : "test_case.test_user.TestUser#test_user",
+  "historyId" : "8c90d14ce16c1c4e0595f20f3923b89d",
+  "time" : {
+    "start" : 1610690278869,
+    "stop" : 1610690278902,
+    "duration" : 33
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '用户不存在' == '用户存在'\n  - 用户存在\n  + 用户不存在\n  ?   +",
+  "statusTrace" : "self = <test_case.test_user.TestUser object at 0x03EA4AD8>\ninBody = {'phone': 15889495111}\nexpData = {'address': None, 'birthday': None, 'code': 42001, 'desc': '用户存在', ...}\n\n    @allure.feature('用户查询')\n    @pytest.mark.parametrize('inBody,expData', get_excel_data('1-查询用户', 'cz'))  # 数据驱动---如果自己开发--一定会写一个for\n    def test_user(self, inBody, expData):\n        # 2- 调用登录的接口代码\n        res = User().user(inBody,getToken=True)  # 获取响应数据---字典格式\n        # print(res['code'])\n        # print(expData)\n        # 3- 预期结果--excel里与实际结果对比     assert 实际结果==期望结果  ; 在封装的类中，请求完，需return返回字典类型\n>       assert res['desc'] == expData['desc']\nE       AssertionError: assert '用户不存在' == '用户存在'\nE         - 用户存在\nE         + 用户不存在\nE         ?   +\n\ntest_user.py:36: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户查询"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "xnxs-FM"
+  }, {
+    "name" : "thread",
+    "value" : "15192-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 42001, 'desc': '用户存在', 'userId': None, 'username': None, 'status': None, 'password': None, 'phone': None, 'headIcon': None, 'sex': None, 'address': None, 'birthday': None, 'isVip': None, 'idAuth': None, 'sign': None, 'userAddress': None, 'userSocialAccount': None}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'phone': 15889495111}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d36d58da2b07dd6c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '用户不存在' == '用户存在'\n  - 用户存在\n  + 用户不存在\n  ?   +",
+      "time" : {
+        "start" : 1610682680258,
+        "stop" : 1610682680293,
+        "duration" : 35
+      }
+    }, {
+      "uid" : "8ca15199f3031452",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '用户不存在' == '用户存在'\n  - 用户存在\n  + 用户不存在\n  ?   +",
+      "time" : {
+        "start" : 1610681386512,
+        "stop" : 1610681386547,
+        "duration" : 35
+      }
+    }, {
+      "uid" : "574664d041ce855a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '用户不存在' == '用户存在'\n  - 用户存在\n  + 用户不存在\n  ?   +",
+      "time" : {
+        "start" : 1610681146519,
+        "stop" : 1610681146555,
+        "duration" : 36
+      }
+    }, {
+      "uid" : "632cb4f679c2de7f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '用户不存在' == '用户存在'\n  - 用户存在\n  + 用户不存在\n  ?   +",
+      "time" : {
+        "start" : 1610616916449,
+        "stop" : 1610616916485,
+        "duration" : 36
+      }
+    }, {
+      "uid" : "99ef438101c3e3ef",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '用户不存在' == '用户存在'\n  - 用户存在\n  + 用户不存在\n  ?   +",
+      "time" : {
+        "start" : 1610616893900,
+        "stop" : 1610616893936,
+        "duration" : 36
+      }
+    }, {
+      "uid" : "35f57e59435e1aa8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '用户不存在' == '用户存在'\n  - 用户存在\n  + 用户不存在\n  ?   +",
+      "time" : {
+        "start" : 1610615737697,
+        "stop" : 1610615737738,
+        "duration" : 41
+      }
+    }, {
+      "uid" : "9764d1f7d6fed46b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '用户不存在' == '用户存在'\n  - 用户存在\n  + 用户不存在\n  ?   +",
+      "time" : {
+        "start" : 1610615516249,
+        "stop" : 1610615516284,
+        "duration" : 35
+      }
+    }, {
+      "uid" : "186dbfb701827b17",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '用户不存在' == '用户存在'\n  - 用户存在\n  + 用户不存在\n  ?   +",
+      "time" : {
+        "start" : 1610615405676,
+        "stop" : 1610615405709,
+        "duration" : 33
+      }
+    }, {
+      "uid" : "7040c19f2b822042",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '用户不存在' == '用户存在'\n  - 用户存在\n  + 用户不存在\n  ?   +",
+      "time" : {
+        "start" : 1610615329752,
+        "stop" : 1610615329823,
+        "duration" : 71
+      }
+    }, {
+      "uid" : "b4ead9062ff8b7d6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '用户不存在' == '用户存在'\n  - 用户存在\n  + 用户不存在\n  ?   +",
+      "time" : {
+        "start" : 1610614682567,
+        "stop" : 1610614682601,
+        "duration" : 34
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c03a534e14bffd7.json",
+  "parameterValues" : [ "{'code': 42001, 'desc': '用户存在', 'userId': None, 'username': None, 'status': None, 'password': None, 'phone': None, 'headIcon': None, 'sex': None, 'address': None, 'birthday': None, 'isVip': None, 'idAuth': None, 'sign': None, 'userAddress': None, 'userSocialAccount': None}", "{'phone': 15889495111}" ]
+}

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "9b056375b8ef2d53",
+  "name" : "test_user[inBody0-expData0]",
+  "time" : {
+    "start" : 1610690278779,
+    "stop" : 1610690278846,
+    "duration" : 67
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c03a534e14bffd7",
+  "name" : "test_user[inBody1-expData1]",
+  "time" : {
+    "start" : 1610690278869,
+    "stop" : 1610690278902,
+    "duration" : 33
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

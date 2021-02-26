@@ -1,0 +1,35 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "用户查询",
+    "children" : [ {
+      "name" : "test_user[inBody0-expData0]",
+      "uid" : "9b056375b8ef2d53",
+      "parentUid" : "55c771ef74a1683e39771ac070212ef6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610690278779,
+        "stop" : 1610690278846,
+        "duration" : 67
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'code': 0, 'desc': '查询成功', 'userId': '68007388434796544', 'username': 'VR68007388', 'status': 1, 'password': 'A8EC140DF75CA75BF6AFA9E590AA4BF4', 'phone': '15889495302', 'headIcon': 'https://picture.i.vrshow.com/defaultAvatar/16042786621562.3474146630696024/公仔1.jpg', 'sex': 2, 'address': None, 'birthday': '2020-12-22', 'isVip': 0, 'idAuth': 1, 'sign': None, 'userAddress': {'userId': '68007388434796544', 'provinceCode': '518000', 'provinceName': '广东省', 'cityCode': '518000', 'cityName': '深圳市', 'areaCode': '440300', 'areaName': '龙岗区', 'streetCode': '518064', 'streetName': '布吉街道', 'address': '粤海街道高新南七道', 'createTime': '2020-12-25T09:22:02.000+00:00', 'updateTime': '2021-01-11T08:14:11.000+00:00'}, 'userSocialAccount': {'accountId': None, 'accountType': None, 'userId': None, 'openid': None, 'username': None, 'userHead': None, 'userSex': None, 'country': None, 'province': None, 'city': None, 'bindTime': None}}", "{'phone': 15889495302}" ]
+    }, {
+      "name" : "test_user[inBody1-expData1]",
+      "uid" : "c03a534e14bffd7",
+      "parentUid" : "55c771ef74a1683e39771ac070212ef6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1610690278869,
+        "stop" : 1610690278902,
+        "duration" : 33
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'code': 42001, 'desc': '用户存在', 'userId': None, 'username': None, 'status': None, 'password': None, 'phone': None, 'headIcon': None, 'sex': None, 'address': None, 'birthday': None, 'isVip': None, 'idAuth': None, 'sign': None, 'userAddress': None, 'userSocialAccount': None}", "{'phone': 15889495111}" ]
+    } ],
+    "uid" : "55c771ef74a1683e39771ac070212ef6"
+  } ]
+}

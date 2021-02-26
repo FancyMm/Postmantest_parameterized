@@ -1,0 +1,65 @@
+{
+  "uid" : "d36d58da2b07dd6c",
+  "name" : "test_user[inBody1-expData1]",
+  "fullName" : "test_case.test_user.TestUser#test_user",
+  "historyId" : "8c90d14ce16c1c4e0595f20f3923b89d",
+  "time" : {
+    "start" : 1610682680258,
+    "stop" : 1610682680293,
+    "duration" : 35
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '用户不存在' == '用户存在'\n  - 用户存在\n  + 用户不存在\n  ?   +",
+  "statusTrace" : "self = <test_case.test_user.TestUser object at 0x03FD8AD8>\ninBody = {'phone': 15889495111}\nexpData = {'address': None, 'birthday': None, 'code': 42001, 'desc': '用户存在', ...}\n\n    @allure.feature('用户查询')\n    @pytest.mark.parametrize('inBody,expData', get_excel_data('1-查询用户', 'cz'))  # 数据驱动---如果自己开发--一定会写一个for\n    def test_user(self, inBody, expData):\n        # 2- 调用登录的接口代码\n        res = User().user(inBody,getToken=True)  # 获取响应数据---字典格式\n        # print(res['code'])\n        # print(expData)\n        # 3- 预期结果--excel里与实际结果对比     assert 实际结果==期望结果  ; 在封装的类中，请求完，需return返回字典类型\n>       assert res['desc'] == expData['desc']\nE       AssertionError: assert '用户不存在' == '用户存在'\nE         - 用户存在\nE         + 用户不存在\nE         ?   +\n\ntest_user.py:36: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户查询"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "xnxs-FM"
+  }, {
+    "name" : "thread",
+    "value" : "14480-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 42001, 'desc': '用户存在', 'userId': None, 'username': None, 'status': None, 'password': None, 'phone': None, 'headIcon': None, 'sex': None, 'address': None, 'birthday': None, 'isVip': None, 'idAuth': None, 'sign': None, 'userAddress': None, 'userSocialAccount': None}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'phone': 15889495111}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d36d58da2b07dd6c.json",
+  "parameterValues" : [ "{'code': 42001, 'desc': '用户存在', 'userId': None, 'username': None, 'status': None, 'password': None, 'phone': None, 'headIcon': None, 'sex': None, 'address': None, 'birthday': None, 'isVip': None, 'idAuth': None, 'sign': None, 'userAddress': None, 'userSocialAccount': None}", "{'phone': 15889495111}" ]
+}

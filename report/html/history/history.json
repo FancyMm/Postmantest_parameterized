@@ -1,0 +1,41 @@
+{
+  "8c90d14ce16c1c4e0595f20f3923b89d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c03a534e14bffd7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '用户不存在' == '用户存在'\n  - 用户存在\n  + 用户不存在\n  ?   +",
+      "time" : {
+        "start" : 1610690278869,
+        "stop" : 1610690278902,
+        "duration" : 33
+      }
+    } ]
+  },
+  "c2b0dd13617bb4782ee5fe8a03dda51d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9b056375b8ef2d53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610690278779,
+        "stop" : 1610690278846,
+        "duration" : 67
+      }
+    } ]
+  }
+}
